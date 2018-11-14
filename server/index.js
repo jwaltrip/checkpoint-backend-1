@@ -19,6 +19,7 @@ const newComments_route = require("./routes/newComments.route");
 const newTasks_route = require("./routes/newTasks.route");
 const newOrders_route = require("./routes/newOrders.route");
 const tickets_route = require("./routes/tickets.route");
+const tasks_route = require("./routes/tasks.route");
 
 // setup routes
 app.use("/", dateTime_route);
@@ -26,6 +27,7 @@ app.use("/", newComments_route);
 app.use("/", newTasks_route);
 app.use("/", newOrders_route);
 app.use("/", tickets_route);
+app.use("/", tasks_route);
 
 // tell server to listen on port 3002
 app.listen(3001, (err) => {
