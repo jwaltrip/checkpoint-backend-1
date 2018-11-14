@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 
 // create messages schema
 const MessagesSchema = new Schema({
+  id: Number,
   name: String,
   date: String,
   message: String

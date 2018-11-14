@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 
 // create orders schema
 const OrdersSchema = new Schema({
+  id: Number,
   orderDate: String,
   orderTime: String,
   amount: String

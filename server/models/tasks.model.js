@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 
 // create tasks schema
 const TasksSchema = new Schema({
+  id: Number,
   task: String,
   date: String
 });
