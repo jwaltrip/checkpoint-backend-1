@@ -10,7 +10,10 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "foreman": "^2.0.0",
+    "mongoose": "^5.3.12",
     "prop-types": "^15.5.8",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
