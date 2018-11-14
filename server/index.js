@@ -15,6 +15,7 @@ mongoose.connect("mongodb://jake:pass1234@ds063140.mlab.com:63140/checkpoint-1")
 
 // import routes
 const dateTime_route = require("./routes/datetime.route");
+const newComments_route = require("./routes/newComments.route");
 // const comments_route = require("./routes/comments.route");
 // const products_route = require("./routes/products.route");
 // const vehicles_route = require("./routes/vehicles.route");
@@ -22,6 +23,7 @@ const dateTime_route = require("./routes/datetime.route");
 
 // setup routes
 app.use("/", dateTime_route);
+app.use("/", newComments_route);
 // app.use("/", comments_route); // comments route
 // app.use("/", products_route); // products route
 // app.use("/", vehicles_route); // vehicles route
